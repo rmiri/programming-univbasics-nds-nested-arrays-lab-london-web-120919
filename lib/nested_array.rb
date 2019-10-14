@@ -32,10 +32,10 @@ def array_literal_matrix
   #assembled_matrix[0].insert(3,assembled_matrix[0].delete_at(4))
   #assembled_matrix[1].insert(0,assembled_matrix[1].delete_at(2))
   #assembled_matrix
-  ENNET_HOUSE.sort
-  ENFIELD_TENNIS_ACADEMY.sort
+  newEn = ENNET_HOUSE.sort
+  newEnf = ENFIELD_TENNIS_ACADEMY.sort
   assembled = []
-  assembled.push(ENNET_HOUSE,ENFIELD_TENNIS_ACADEMY)
+  assembled.push(newEn,newEnf)
 end
 
 def matrix_lookup(matrix, row, column)
