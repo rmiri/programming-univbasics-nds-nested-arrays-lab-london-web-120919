@@ -32,7 +32,8 @@ def array_literal_matrix
   #assembled_matrix[0].insert(3,assembled_matrix[0].delete_at(4))
   #assembled_matrix[1].insert(0,assembled_matrix[1].delete_at(2))
   #assembled_matrix
-[ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
+  assembled = []
+  assembled.push(ENNET_HOUSE.sort,ENFIELD_TENNIS_ACADEMY.sort)
 end
 
 def matrix_lookup(matrix, row, column)
